@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/LogoView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/dhyandroid"
+        android:layout_margin="20dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/textViewDisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif"
+        android:textColor="#000"/>
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+    <Button
+        android:id="@+id/button_meditate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_style_1"
+        android:text="MEDITATE"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_evaluate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_meditate"
+        android:background="@drawable/button_style_1"
+        android:text="EVALUATE"
+        android:textColor="#ffffff"
+        android:layout_margin="30dp"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_compare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_style_1"
+        android:text="COMPARE"
+        android:layout_below="@id/button_evaluate"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_style_2"
+        android:text="EXIT"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/button_style_2"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="Log Out"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewCopyRights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Copyrights \nAll Rights Reserved"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:fontFamily="cursive"/>
+
+</RelativeLayout>

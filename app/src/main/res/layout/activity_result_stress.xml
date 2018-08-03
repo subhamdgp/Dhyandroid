@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultStressActivity"
+    android:background="#b0db87"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="76dp"
+        android:fontFamily="casual"
+        android:text="Congratulations"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="27sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/outOf"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="casual"
+        android:padding="5dp"
+        android:text="You are in Stress Free Zone"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:id="@+id/advice"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Advice"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="35dp"
+        android:background="#43a5a3"
+        android:padding="5dp"
+        android:text="Meditate"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

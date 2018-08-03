@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dim_foreground_disabled_material_dark"
+    tools:context=".EvaluateNextBeforeNext">
+
+    <ImageView
+        android:id="@+id/LogoView"
+        android:layout_width="112dp"
+        android:layout_height="113dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:src="@drawable/dhyandroid" />
+
+
+    <Button
+        android:id="@+id/button_mood"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_logic"
+        android:layout_toStartOf="@+id/button_memory"
+        android:background="@drawable/btn1"
+        android:text="MOOD"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_logic"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="204dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/btn2"
+        android:text="LOGIC"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_aggression"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button_stress"
+        android:layout_marginTop="203dp"
+        android:background="@drawable/btn3"
+        android:text="AGGRESSION"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_memory"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button_emotion"
+        android:layout_alignTop="@+id/button_aggression"
+        android:background="@drawable/btn4"
+        android:text="MEMORY"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_stress"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button_emotion"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/btn1"
+        android:text="STRESS"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_emotion"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="136dp"
+        android:layout_toEndOf="@+id/button_reflex"
+        android:background="@drawable/btn2"
+        android:text="EMOTION"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_reflex"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button_attention"
+        android:layout_marginStart="22dp"
+        android:background="@drawable/btn3"
+        android:text="REFLEX"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_attention"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button_logic"
+        android:layout_marginBottom="135dp"
+        android:background="@drawable/btn4"
+        android:gravity="center"
+        android:text="ATTENTION"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "440875344417",
+    "firebase_url": "https://dhyandroid2.firebaseio.com",
+    "project_id": "dhyandroid2",
+    "storage_bucket": "dhyandroid2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440875344417:android:1781f393633c5abe",
+        "android_client_info": {
+          "package_name": "com.humosys.dhyandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440875344417-s9cjf1pbfuvkk30sc0clkmij5jg8s4ul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.humosys.dhyandroid",
+            "certificate_hash": "28342b6449e83e9d832281f43765a87e39365718"
+          }
+        },
+        {
+          "client_id": "440875344417-ac6pbf3ntt5tc3bdsmt84c48ashhdka3.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "440875344417-ac6pbf3ntt5tc3bdsmt84c48ashhdka3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7FpUvR0Fl2q6UWJzsrZRU8Y0RKEuyI9k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440875344417-ac6pbf3ntt5tc3bdsmt84c48ashhdka3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

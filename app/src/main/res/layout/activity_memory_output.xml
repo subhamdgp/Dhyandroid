@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemoryOutput">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="fill_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="13">
+
+
+        <TextView
+            android:id="@+id/yourscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="YOUR SCORE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/finalscorevalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="score"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/lastscorevalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:alpha="0.6"
+            android:text="(Previously Score = )"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/attempts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:text="TOTAL ATTEMPTS"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/total_attempts_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="total attempts"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/last_attempts_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:alpha="0.6"
+            android:text="(Previous Attempts = )"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:text="How long do you think it took to complete the level?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/enter_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:ems="5"
+            android:hint="time(secs)"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            android:gravity="center_vertical|center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/enterbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:onClick="timeResult"
+            android:text="Enter"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/entered_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:text="Perceived Time = _ _"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/timetakenid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="Actual time = _ _"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/last_entered_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:alpha="0.6"
+            android:text="(Previously Perceived Time = _ _)"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/last_timetakenid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:alpha=".6"
+            android:text="(Previous Actual Time = _ _)"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</RelativeLayout>

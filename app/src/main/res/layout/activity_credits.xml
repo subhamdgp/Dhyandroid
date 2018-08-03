@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreditsActivity"
+    android:background="@drawable/gradient">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyrighted to Humosys Technologies"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textColor="#ec0707"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:id="@+id/textViewTeam"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Team"
+            android:textColor="#050000"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="1. Swami Sudhananda Giri"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="2. Aurobinda Routray"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="3. Rajlakshmi Guha"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="4. Anirban Dasgupta"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="5. Anushree Basu"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="6. Subhasmita Sahoo"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="7. Subham Das"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="8. Abhirup Patra"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="9. Sushil Rahar"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="10. Sarita Kumari"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="11. Hriday Byuakar"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="12. Seshadri Mazumder"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/textViewTeam"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="External Libraries Used: "
+            android:textSize="30sp"
+            android:textColor="#050000"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:text="1.TarsosDSP"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="45dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="45dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="2.MP Android Chart" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

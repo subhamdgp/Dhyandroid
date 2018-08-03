@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0db87"
+    android:orientation="vertical"
+    tools:context=".QuizStressActivity">
+
+    <TextView
+        android:id="@+id/instruct1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Mark this on a scale of 1 to 10"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/instruct2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="(1 being a strong No while 10 being a strong Yes)"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/quest"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="1. I am having Headaches"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/stressRadioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+            <RadioButton
+                android:id="@+id/radioButtonStress1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:onClick="onRadioButtonStress"
+                android:text="1"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonStress2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:onClick="onRadioButtonStress"
+                android:text="2"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonStress3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:onClick="onRadioButtonStress"
+                android:text="3"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonStress4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:onClick="onRadioButtonStress"
+                android:text="4"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonStress5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:onClick="onRadioButtonStress"
+                android:text="5"
+                android:textSize="15dp" />
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/stressRadioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <RadioButton
+                android:id="@+id/radioButtonStress6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:onClick="onRadioButtonStress"
+                android:text="6"
+                android:textSize="15dp" />
+
+
+        <RadioButton
+                android:id="@+id/radioButtonStress7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:onClick="onRadioButtonStress"
+                android:text="7"
+                android:textSize="15dp" />
+
+
+        <RadioButton
+                android:id="@+id/radioButtonStress8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:onClick="onRadioButtonStress"
+                android:text="8"
+                android:textSize="15dp" />
+
+
+        <RadioButton
+                android:id="@+id/radioButtonStress9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:onClick="onRadioButtonStress"
+                android:text="9"
+                android:textSize="15dp" />
+
+
+        <RadioButton
+                android:id="@+id/radioButtonStress10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:onClick="onRadioButtonStress"
+                android:text="10"
+                android:textSize="15dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#45b88b"
+        android:text="NEXT"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

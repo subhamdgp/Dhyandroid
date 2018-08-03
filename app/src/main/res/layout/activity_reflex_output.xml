@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ReflexOutput">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="fill_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="9">
+
+        <TextView
+            android:id="@+id/fastestText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="The Fastest Response"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fastesttimevalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fastestText"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="fastesttime"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/lastfastestvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:alpha="0.6"
+            android:text="(Previously Fastest = )"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/slowestText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fastesttimevalue"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:layout_marginTop="25dp"
+            android:text="The Slowest Response"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/slowesttimevalue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slowestText"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="slowesttime"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/lastslowestvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:alpha="0.6"
+            android:text="(Previously Slowest = )"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/pointstext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:layout_marginTop="25dp"
+            android:text="Counts"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pointsvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:text="pointsvalue"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/lastpointvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:alpha="0.6"
+            android:text="(Previously Slowest = )"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

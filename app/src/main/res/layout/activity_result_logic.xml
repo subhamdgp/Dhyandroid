@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b1d0d5"
+    tools:context=".ResultLogic">
+
+    <TextView
+        android:id="@+id/resultHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="RESULT"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/scoreLogicHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        android:layout_below="@id/resultHead"
+        android:layout_marginTop="70dp" />
+    <TextView
+        android:id="@+id/scoreLogic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scoreLogicHead"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:text="0"/>
+    <TextView
+        android:id="@+id/rightAnswersLogic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Right Answers = 0"
+        android:layout_below="@id/resultHead"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/wrongAnswersLogic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resultHead"
+        android:layout_alignParentRight="true"
+        android:text="Wrong Answers = 0"
+        android:layout_margin="20dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/timeTakenLogic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Taken ="
+        android:textSize="30dp"
+        android:layout_below="@id/scoreLogic"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

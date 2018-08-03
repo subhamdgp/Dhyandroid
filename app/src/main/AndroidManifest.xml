@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.humosys.dhyandroid">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dhyandroid"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dhyandroid"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MeditateNext"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EvaluateNext"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EvaluateNextBeforeNext"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Memory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MemoryGrid"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WorkingMemory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MemoryOutput"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizStressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResultStressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Attention"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CalculationOutput"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AttentionOutput"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reflex"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReflexOutput"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReflexLevels"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Logic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LogicGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResultLogic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MoodQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Aggression"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MoodResult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Compare"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signup1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreditsActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+</manifest>

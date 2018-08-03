@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:background="#A6E417"
+    tools:context=".Logic">
+
+    <TextView
+        android:id="@+id/headingLogic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To The Logic Game"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="#ff0000"
+        android:textStyle="bold"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+    <TextView
+        android:id="@+id/instruction1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions:"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/instruction1"
+        android:text="There will be simple mathematical equations on the screen and you have to simply press YES or NO depending on whether the equation is correct or not. "
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/startLogicGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:background="#E43C17"/>
+</RelativeLayout>
+

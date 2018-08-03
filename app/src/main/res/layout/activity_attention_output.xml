@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/dim_foreground_disabled_material_dark"
+    tools:context=".AttentionOutput">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="fill_vertical|center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/attention_attempt_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="ATTEMPTS/SETS"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/attention_attempts_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/attention_attempt_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="attempts"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/last_attempts_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:alpha="0.6"
+            android:text="(Previous Score = )"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="How long do you think it took to complete the level?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/enter_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:ems="5"
+            android:hint="time(secs)"
+            android:inputType="numberDecimal"
+            android:width="100dp"
+            android:maxLength="4"
+            android:gravity="center_vertical|center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/enterbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enter_time"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:onClick="timeResult"
+            android:text="Enter"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/entered_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Perceived Time = _ _"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/timetakenid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timetaken"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Actual time = _ _"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/last_entered_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:alpha="0.6"
+            android:text="(Previously Perceived Time = _ _)"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/last_timetakenid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:alpha=".6"
+            android:text="(Previous Actual Time = _ _)"
+            android:textSize="15dp" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/attentiontimetext"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/attention_attempts_value"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:text="TIME/SET"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/attentiontimevalue"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/attentiontimetext"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:text="&#45;&#45;"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:textSize="25dp" />-->
+
+    </LinearLayout>
+</RelativeLayout>

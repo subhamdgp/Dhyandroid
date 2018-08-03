@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dim_foreground_disabled_material_dark"
+    tools:context=".EvaluateNext">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+    <Button
+        android:id="@+id/button_before_meditation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style_4"
+        android:text="Before Meditation"
+        android:layout_margin="50dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         />
+
+    <Button
+        android:id="@+id/button_after_meditation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_before_meditation"
+        android:background="@drawable/button_style_4"
+        android:text="After Meditation"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_margin="50dp"
+        android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/dhyandroid"
+        android:layout_margin="20dp"
+        android:padding="5dp"/>
+
+</RelativeLayout>

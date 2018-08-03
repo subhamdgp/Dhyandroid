@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity"
+    android:background="#aba099"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="1. I do not become defensive when criticized."
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:layout_width="370dp"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        android:id="@+id/radiogroup2">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="casual"
+            android:onClick="onRadioButtonClicked"
+            android:text="Strongly Disagree"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:onClick="onRadioButtonClicked"
+            android:text="Disagree"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:onClick="onRadioButtonClicked"
+            android:fontFamily="casual"
+            android:text="Neither Agree Nor Disagree"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:onClick="onRadioButtonClicked"
+            android:fontFamily="casual"
+            android:text="Agree"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:onClick="onRadioButtonClicked"
+            android:fontFamily="casual"
+            android:text="Strongly Agree"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Next" />
+
+
+</LinearLayout>

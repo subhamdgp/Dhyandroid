@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Questions">\
+
+        <item>Bank is related to money in the same way as transport is related to </item>  //1
+        <item>`Match’ is related to `Victory’ in the same way as `Examination’ is related to</item>//2
+
+        <item>10 34 12 31 14 28 16 _ _? </item>//3
+        <item>45, 54, 47, ?, 49, 56, 51, 57, 53</item>
+        <item> 2, 9, 23, 3, 8, 25, 4, ?, 27</item>
+
+        <item>P5QR, P4QS, P3QT, _____, P1QV"</item>//6
+        <item>AZ, GT, MN, ?, YB</item>
+
+        <item>Choose the Unique number</item>
+        <item>Select the unique option</item>
+
+
+        <item>BRISTLE : BRUSH</item>//10
+        <item>wave: tide : : moment : ____</item>
+        <item>Scale : Fish</item>
+        <item> Mountain : Height : Climber</item>
+        <item>Poles : Magnet :: ? : battery </item>
+
+        <item>In a code language if POSE is coded as OQNPRTDF, then the word TYPE will be coded as</item>//15
+        <item>SLAR means JUMP,SLARY means JUMPING,SLAREND means JUMPED. Which word could mean “PLAYING”? </item>
+        <item>If FRIEND is coded as HUMJTK, how can CANDLE be written in that code? </item>
+
+        <item>Get odd one out</item> //18
+        <item>Get odd one out </item>
+        <item>Find the odd one out</item>
+
+        <item>A and B are young ones of C. If C is the father of A but B is not the son of C. How are B and C related</item>   //21
+        <item>Preeti says that father of Rajiv\'s father is my father. How is Preeti related to Rajiv?</item>
+
+        <item>A, CD, GHI, ?, UVWXY </item>             //23
+        <item>2Z5, 7Y7, 14X9, 23W11, 34V13, ? </item>
+        <item>2A11, 4D13, 12G17, ? </item>
+        <item> WORK : MOTIVE :: __ : __</item>
+        <item>If ZEBRA can be written as 2652181, how can COBRA be written? </item>
+        <item>Pointing out to a girl a man said "My uncle is the uncle of this girl\'s uncle". How is the man related to that girl?</item>
+        <item>A girl introduced a boy as the son of the daughter of the father of her uncle. The boy is girl’s </item>
+        <item>dionot means oak tree,blyonot means oak leaf,blycrin means maple leaf. Which word could mean “maple syrup”?</item>
+
+
+    </string-array>
+
+
+    <string-array name="answers">
+        <item>Goods</item>
+        <item>Success</item>
+
+        <item>25 18</item>
+        <item>55</item>
+        <item>7</item>
+
+        <item>P2QU</item>
+        <item>SH</item>
+
+        <item>685</item>
+        <item>GIHJ</item>
+
+        <item>Key : Piano</item>
+        <item>Clock</item>
+        <item>Skin : Man</item>
+        <item>Sea : Depth : Divers</item>
+        <item>Terminal</item>
+
+        <item>SUXZOQDF</item>
+        <item>CLARGY</item>
+        <item>EDRIRL</item>
+
+        <item>5 : 18</item>
+        <item>159</item>
+        <item>Mango</item>
+
+        <item>Daughter and Father</item>
+        <item>Father\'s sister</item>
+
+        <item>MNOP</item>/
+        <item>47U15</item>/
+        <item>48J23</item>/
+        <item>Petrol : Car</item>/
+        <item>3152181</item>/
+        <item>Father</item>
+        <item>Brother</item>/
+        <item>Patricrin</item>/
+
+
+    </string-array>
+</resources>

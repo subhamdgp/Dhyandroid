@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#aba099"
+    tools:context=".MoodQuiz">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="1.How often have you had little interest or pleasure in doing things?"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup3"
+        android:layout_width="370dp"
+        android:layout_height="280dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="casual"
+            android:onClick="onRadioButtonClicked1"
+            android:text="Always"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton22"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:onClick="onRadioButtonClicked1"
+            android:text="Quite Often"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton33"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:onClick="onRadioButtonClicked1"
+            android:text="Mayebe Sometimes"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton44"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:onClick="onRadioButtonClicked1"
+            android:text="Rarely"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton55"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:onClick="onRadioButtonClicked1"
+            android:text="Never"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Next" />
+
+
+</LinearLayout>
